@@ -1,0 +1,15 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Weight</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Please choose your weight</text>
+
+    <div class="row">
+        <input class="button" type="button" value="-"  onclick="decreaseWeight"></input>
+        <text class="subtitle">{{weight}} kg</text>
+        <input class="button" type="button" value="+"  onclick="increaseWeight"></input>
+    </div>
+
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Next →"  onclick="goNextPage"></input>
+</div>

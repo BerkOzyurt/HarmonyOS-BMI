@@ -1,0 +1,15 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Height</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Please choose your height</text>
+
+    <div class="row">
+        <input class="button" type="button" value="-"  onclick="decreaseHeight"></input>
+        <text class="subtitle">{{height}} cm</text>
+        <input class="button" type="button" value="+"  onclick="increaseHeight"></input>
+    </div>
+
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Next →"  onclick="goNextPage"></input>
+</div>

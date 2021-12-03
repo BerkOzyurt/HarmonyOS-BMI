@@ -1,0 +1,10 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Result</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Am I Qualified?</text>
+    <div class="smallSpace" ></div>
+    <text class="containerArray">{{result}}</text>
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Show Result!"  onclick="getGender"></input>
+</div>

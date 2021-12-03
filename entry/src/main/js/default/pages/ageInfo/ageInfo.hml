@@ -1,0 +1,15 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Age</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Please choose your age</text>
+
+    <div class="row">
+        <input class="button" type="button" value="-"  onclick="decrease"></input>
+        <text class="subtitle">{{age}}</text>
+        <input class="button" type="button" value="+"  onclick="increase"></input>
+    </div>
+
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Next →"  onclick="goNextPage"></input>
+</div>

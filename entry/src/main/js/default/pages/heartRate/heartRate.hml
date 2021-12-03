@@ -1,0 +1,7 @@
+<div class="container" onswipe="touchMove">
+
+    <div class="separator" ></div>
+    <text class="subtitle">{{heartBeatCount}}</text>
+    <div class="separator" ></div>
+
+</div>

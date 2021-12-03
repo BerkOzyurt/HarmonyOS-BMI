@@ -1,0 +1,15 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Gender</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Please choose your gender</text>
+
+    <div class="row">
+        <input class="button" type="button" value="Male"  onclick="setGenderMale"></input>
+        <div class="smallSpaceW" ></div>
+        <input class="button" type="button" value="Female"  onclick="setGenderFemale"></input>
+    </div>
+
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Next →"  onclick="goNextPage"></input>
+</div>

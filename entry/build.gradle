@@ -1,0 +1,23 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:/Users/b00600485/DevEcoStudioProjects/FirstWearableProject/FirstKeyStoreFile.p12')
+            storePassword '0000001934E20E730ADFD3563E38FBA37DBF86151D29351C4606750D6DBD60B366BB835D6797A60B4A'
+            keyAlias 'alias'
+            keyPassword '00000019EC1654F678C23B3324E8AC3C7543B381F2F135EC59A99FA77E01C0FFBBB2606E23A3A11B95'
+            signAlg 'SHA256withECDSA'
+            profile file('C:/Users/b00600485/DevEcoStudioProjects/FirstWearableProject/FirstProvisionFileDebug.p7b')
+            certpath file('C:/Users/b00600485/DevEcoStudioProjects/FirstWearableProject/FirstCertificate.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+}

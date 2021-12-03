@@ -1,0 +1,58 @@
+@import '../../common/style.css';
+.container {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size:38px;
+    font-family: HYQiHei-65S;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size:30px;
+    justify-content: center;
+
+}
+
+.button {
+    background-color: #E9932B;
+    margin-top: 100px;
+    width: 200px;
+    height: 55px;
+}
+.button:active {
+    background-color: deepskyblue;
+    margin-top: 100px;
+    width: 200px;
+    height: 55px;
+}
+
+.nextButton {
+    display: flex;
+    width: 2000px;
+    height: 75px;
+    background-color: deepskyblue;
+    font-family: HYQiHei-65S;
+}
+
+.bigSpace {
+    height: 75px;
+}
+
+.separator {
+    height: 3px;
+    width: 454px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: deepskyblue;
+}
+
+.containerArray {
+    flex-direction: column;
+    width: 400px;
+    height: 160px;
+    background-color: transparent;
+}

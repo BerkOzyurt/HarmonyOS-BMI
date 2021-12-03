@@ -1,0 +1,11 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">Wellcome</text>
+    <div class="separator" ></div>
+    <div class="smallSpace" ></div>
+    <text class="subtitle">Am I Qualified?</text>
+    <div class="bigSpace" ></div>
+    <text class="subtitle">Test if you're qualify to</text>
+    <text class="subtitle">be a police with this app!</text>
+    <div class="bigSpace" ></div>
+    <input class="nextButton" type="button" value="Start!"  onclick="writeText"></input>
+</div>

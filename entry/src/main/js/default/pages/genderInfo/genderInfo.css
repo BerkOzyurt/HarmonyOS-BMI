@@ -1,0 +1,70 @@
+@import '../../common/style.css';
+.container {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size:38px;
+    font-family: HYQiHei-65S;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: HYQiHei-65S;
+}
+
+.subtitle {
+    font-size:30px;
+    justify-content: center;
+    font-family: HYQiHei-65S;
+    margin: 25px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.bigSpace {
+    height: 75px;
+}
+
+.smallSpace {
+    height: 25px;
+}
+
+.smallSpaceW {
+    width: 25px;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-color: deepskyblue;
+    border-width: 3px;
+    background-color: #000000;
+    font-family: HYQiHei-65S;
+}
+
+.nextButton {
+    display: flex;
+    width: 2000px;
+    height: 75px;
+    background-color: deepskyblue;
+    font-family: HYQiHei-65S;
+}
+
+.separator {
+    height: 3px;
+    width: 454px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: deepskyblue;
+}
